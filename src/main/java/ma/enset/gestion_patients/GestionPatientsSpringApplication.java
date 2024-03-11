@@ -45,6 +45,7 @@ public class GestionPatientsSpringApplication implements CommandLineRunner {
         //content est la liste des patients
         List <Patient> content = patients.getContent();
         Page<Patient> byMalade = patientRepository.findByMalade(true,PageRequest.of(0,5));
+        List <Patient> patientList = patientRepository.chercherPatients(new Date(), new Date(), "%k%");
         //pour afficher les personne malade
         byMalade.forEach(p -> {System.out.println(p.getNom());
         });
