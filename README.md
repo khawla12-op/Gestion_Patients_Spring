@@ -1,4 +1,5 @@
-Ce projet Spring illustre les fonctionnalités d'une application Spring typique. Notre application utilise la classe Hibernate, qui implémente l'interface JPA (Java Persistence API). Cette dernière est utilisée par Spring Data pour simplifier l'accès aux données dans notre application.
+## Activité Pratique N°2 : ORM, Jpa, Hibernate Spring Data
+Cette application Spring illustre les fonctionnalités d'une application Spring typique. Notre application utilise la classe Hibernate, qui implémente l'interface JPA (Java Persistence API). Cette dernière est utilisée par Spring Data pour simplifier l'accès aux données dans notre application.
 <img width="990"   alt="Capture d’écran 2023-03-11 à 17 04 14" src="https://github.com/khawla12-op/Gestion_Patients_Spring/assets/108635784/9dd857a9-ea9c-4052-b144-4739e68beb0e" >
 
 ### 1. Créer un projet Spring Initializer
